@@ -138,6 +138,3 @@ def pregunta_01() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
    crear_csv(priority_segments, "priority_segments.csv")
 
    return profitability_summary, discount_summary, priority_segments
-
-if __name__ == "__main__":
-    pregunta_01()
